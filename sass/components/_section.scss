@@ -39,10 +39,10 @@ h4 {
 .function {
   margin-right: auto;
   margin-left: auto;
-  width: 1200px;
+  max-width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
-  display: flex;
+  // display: flex;
   list-style: none;
   .degris {
     padding-top: 94px;
@@ -88,7 +88,7 @@ h4 {
   line-height: 24px;
 }
 .feature-icon {
-  display: flex;
+  // display: flex;
   justify-content: center;
   align-items: center;
   width: 270px;
@@ -168,7 +168,7 @@ a {
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1200px;
+  max-width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
 }
@@ -182,7 +182,7 @@ a {
   padding-bottom: 94px;
 }
 .team {
-  display: flex;
+  // display: flex;
   list-style: none;
   justify-content: center;
   position: center;
