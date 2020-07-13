@@ -634,6 +634,34 @@ a {
   border-radius: 2px;
 }
 
+@media screen and (min-width: 767px) {
+  .header-button-menu {
+    display: none;
+  }
+}
+
+.header-button-menu {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 767px) {
+  .site-nav,
+  .auth-nav {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    background-color: #fff;
+    border-top: 1px solid #ececec;
+  }
+}
+
 .backdrop.is-hidden {
   visibility: hidden;
   opacity: 0;
